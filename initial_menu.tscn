@@ -7,50 +7,54 @@
 script = ExtResource("1_krtd3")
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(212, 450)
-scale = Vector2(0.439236, 0.439236)
+position = Vector2(766, 1600)
+scale = Vector2(1.5816, 1.5816)
 texture = ExtResource("2_lqni3")
 
 [node name="title" type="Label" parent="."]
-offset_left = 55.5
-offset_top = 180.0
-offset_right = 349.5
-offset_bottom = 238.0
+offset_left = 195.0
+offset_top = 640.0
+offset_right = 1245.0
+offset_bottom = 845.0
 theme_override_colors/font_color = Color(0.831373, 0.686275, 0.215686, 1)
 theme_override_colors/font_outline_color = Color(0.501961, 0.352941, 0, 1)
 theme_override_constants/outline_size = 5
-theme_override_font_sizes/font_size = 42
+theme_override_font_sizes/font_size = 150
 text = "中世纪人生模拟"
 
 [node name="menu_node2D" type="Node2D" parent="."]
-position = Vector2(33, 450)
+position = Vector2(117, 1600)
 
 [node name="start_menu" type="Node2D" parent="menu_node2D"]
 
 [node name="start_button" type="Button" parent="menu_node2D/start_menu"]
-offset_right = 340.0
-offset_bottom = 60.0
+offset_right = 1200.0
+offset_bottom = 220.0
+theme_override_font_sizes/font_size = 60
 text = "开始游戏"
 
 [node name="select_status" type="Node2D" parent="menu_node2D"]
 visible = false
 
 [node name="select1" type="Button" parent="menu_node2D/select_status"]
-offset_right = 340.0
-offset_bottom = 60.0
+offset_right = 1200.0
+offset_bottom = 220.0
+theme_override_font_sizes/font_size = 60
 text = "扮演国王"
 
 [node name="select2" type="Button" parent="menu_node2D/select_status"]
-offset_top = 80.0
-offset_right = 340.0
-offset_bottom = 140.0
+offset_top = 290.0
+offset_right = 1200.0
+offset_bottom = 510.0
+theme_override_font_sizes/font_size = 60
 disabled = true
 text = "扮演贵族（暂不可用）"
 
 [node name="select3" type="Button" parent="menu_node2D/select_status"]
-offset_top = 160.0
-offset_right = 340.0
-offset_bottom = 220.0
+offset_top = 580.0
+offset_right = 1200.0
+offset_bottom = 800.0
+theme_override_font_sizes/font_size = 60
 disabled = true
 text = "扮演平民（暂不可用）"
 
