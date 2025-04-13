@@ -1,0 +1,58 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4pp5s0p7tg7a"]
+
+[ext_resource type="Script" uid="uid://bvgmly7xwl6t2" path="res://Script/initial_menu.gd" id="1_krtd3"]
+[ext_resource type="Texture2D" uid="uid://ctfr2526vqmit" path="res://background.png" id="2_lqni3"]
+
+[node name="InitialMenu" type="Node2D"]
+script = ExtResource("1_krtd3")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(212, 450)
+scale = Vector2(0.439236, 0.439236)
+texture = ExtResource("2_lqni3")
+
+[node name="title" type="Label" parent="."]
+offset_left = 55.5
+offset_top = 180.0
+offset_right = 349.5
+offset_bottom = 238.0
+theme_override_colors/font_color = Color(0.831373, 0.686275, 0.215686, 1)
+theme_override_colors/font_outline_color = Color(0.501961, 0.352941, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 42
+text = "中世纪人生模拟"
+
+[node name="menu_node2D" type="Node2D" parent="."]
+position = Vector2(33, 450)
+
+[node name="start_menu" type="Node2D" parent="menu_node2D"]
+
+[node name="start_button" type="Button" parent="menu_node2D/start_menu"]
+offset_right = 340.0
+offset_bottom = 60.0
+text = "开始游戏"
+
+[node name="select_status" type="Node2D" parent="menu_node2D"]
+visible = false
+
+[node name="select1" type="Button" parent="menu_node2D/select_status"]
+offset_right = 340.0
+offset_bottom = 60.0
+text = "扮演国王"
+
+[node name="select2" type="Button" parent="menu_node2D/select_status"]
+offset_top = 80.0
+offset_right = 340.0
+offset_bottom = 140.0
+disabled = true
+text = "扮演贵族（暂不可用）"
+
+[node name="select3" type="Button" parent="menu_node2D/select_status"]
+offset_top = 160.0
+offset_right = 340.0
+offset_bottom = 220.0
+disabled = true
+text = "扮演平民（暂不可用）"
+
+[connection signal="pressed" from="menu_node2D/start_menu/start_button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="menu_node2D/select_status/select1" to="." method="_on_select_1_pressed"]
