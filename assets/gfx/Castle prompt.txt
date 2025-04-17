@@ -1,0 +1,6 @@
+External view of medieval fortress from low-angle perspective, symmetrical four-tower structure with tattered blue-and-white heraldic banners featuring a white iris on a blue background. Camera height at 20 meters , castle occupies 50% frame width. Key elements: 
+- Weathered stone walls with visible mortar joints (no ivy/foliage)
+- Background: Hazy landscape on a flat plain with green grasslands under a diffuse overcast sky.
+
+
+Style: Ubisoft-style game art with cel-shading, muted color grading (slate gray 45%, ochre 35%, indigo 20%)

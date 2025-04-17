@@ -2,16 +2,12 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bo318coytybs7"
-path="res://.godot/imported/coins.svg-01a69ff26773e8703fbf27c51f949e9b.ctex"
-metadata={
-"vram_texture": false
-}
+uid="uid://bpar03y1qtcnd"
+valid=false
 
 [deps]
 
-source_file="res://image/coins.svg"
-dest_files=["res://.godot/imported/coins.svg-01a69ff26773e8703fbf27c51f949e9b.ctex"]
+source_file="res://assets/Reference/image_fx (1).jpg"
 
 [params]
 
@@ -32,6 +28,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false

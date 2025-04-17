@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bo318coytybs7"
-path="res://.godot/imported/coins.svg-01a69ff26773e8703fbf27c51f949e9b.ctex"
+uid="uid://bp4o230bqj4jw"
+path="res://.godot/imported/castle.svg-c419aa6810721daac0f17a1a591ed896.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image/coins.svg"
-dest_files=["res://.godot/imported/coins.svg-01a69ff26773e8703fbf27c51f949e9b.ctex"]
+source_file="res://assets/gfx/castle.svg"
+dest_files=["res://.godot/imported/castle.svg-c419aa6810721daac0f17a1a591ed896.ctex"]
 
 [params]
 
